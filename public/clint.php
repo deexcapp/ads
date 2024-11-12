@@ -33,7 +33,7 @@ if (isset($update->message)) {
         LampStack('sendPhoto', [
             'chat_id' => $from_id,
             'photo' => new CURLFile('home.png'), // Ensure this path is correct
-            'caption' => "<b>Hey, $username! welcome </b>\n\nClick on to play @CryptoXwQ",
+            'caption' => "<b>Hey, $username! welcome </b>\n\nClick on to play @salekbd_bot",
             'parse_mode' => 'HTML',
             'reply_to_message_id' => $message_id,
             'reply_markup' => json_encode([
