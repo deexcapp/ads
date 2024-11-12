@@ -23,7 +23,7 @@ const Ref = () => {
 
   const copyToClipboard = () => {
     // eslint-disable-next-line
-    const reflink = `https://t.me/AlphaGhost_Bot?start=r${id}\n\$GHOST tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! $GHOST Power Tap! 🚀`;
+    const reflink = `https://t.me/salekbd_bot?start=r${id}\n\$GHOST tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! $GHOST Power Tap! 🚀`;
 
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard
