@@ -7,7 +7,7 @@ $apiKey = '7531815457:AAH5FSox51lvfZOaeCbNw7N1wvW7f4sA9Ts'; // Replace with your
 $update = json_decode(file_get_contents('php://input'));
 $username = isset($update->message->from->first_name) ? $update->message->from->first_name : 'User';
 $games_url = 'https://jolly-lebkuchen-2a46e7.netlify.app';
-$community = 't.me/CryptoXwQ'; // Corrected variable name
+$community = 't.me/salek200'; // Corrected variable name
 
 function LampStack($method, $datas = []) {
     global $apiKey;
@@ -39,7 +39,7 @@ if (isset($update->message)) {
             'reply_markup' => json_encode([
                 'inline_keyboard' => [
                     [['text' => 'Open App 👍', 'web_app' => ['url' => $games_url]]],
-                    [['text' => 'Contact', 'url' => $community]]
+                    [['text' => 'Contact Ads', 'url' => $community]]
                 ]
             ])
         ]);
