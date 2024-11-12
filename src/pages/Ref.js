@@ -66,7 +66,7 @@ const Ref = () => {
     const shareData = {
       title: "Mine $BLEGGS tokens now!",
       // eslint-disable-next-line
-      url: `https://t.me/AlphaGhost_Bot?start=r${id}\n\ `, // Replace with your link
+      url: `https://t.me/salekbd_bot?start=r${id}\n\ `, // Replace with your link
       text: "$GHOST tokens mining is live! Two is better than one!  Join my squad, and let's double the fun (and earnings 🤑)! $GHOST Power Tap! 🚀",
     };
 
