@@ -11,28 +11,28 @@ const rankBoosting = [
     title: "10,000 $GHOST",
     capacity: 10000,
     cost: '100000000',
-    price: 0.1,
+    price: 0.01,
     xx: '10,000'
   },
   {
     title: "30,000 $GHOST",
     capacity: 30000,
     cost: '300000000',
-    price: 0.3,
+    price: 0.03,
     xx: '30,0000'
   },
   {
     title: "50,000 $GHOST",
     capacity: 50000,
     cost: '500000000',
-    price: 0.5,
+    price: 0.05,
     xx: '10x'
   },
   {
     title: "100,000 $GHOST",
     capacity: 100000,
     cost: '700000000',
-    price: 0.7,
+    price: 0.07,
     xx: '100,000'
   },
 ];
@@ -74,7 +74,7 @@ const BoostRank = () => {
     validUntil: Math.floor(Date.now() / 1000) + 300,
     messages: [
       {
-        address: "UQAtr73XG2zmO1iwQYqvhhIdWVdJVT0CHsBai7LO_MGg9UBL",
+        address: "UQCzcjV_-H7H5xtq3SzcgO5e_x2Y0osVXBw2IabowcIbC_No",
         amount: cost, // Accurate cost from the selected mining power
       },
     ],
