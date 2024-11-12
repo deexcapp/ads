@@ -39,12 +39,12 @@ if ($text === '/start') {
     Got friends, family, or fellow dog lovers? Invite them to join the fun and grow your earnings as the pack gets bigger! The more paws, the better!
 
     🔗 **Connect with Us:**
-    - Developed by [@CryptoXwQ](https://t.me/CryptoXwQ)
-    - Join our [Dog Lovers Telegram Pack](https://t.me/CryptoXwQ) for the latest updates and tail-wagging fun!
+    - Developed by [@salek200](https://t.me/salekbd_bot)
+    - Join our [Dog Lovers Telegram Pack](https://t.me/salekbd_bot) for the latest updates and tail-wagging fun!
 
     🐾 **Get Started Now** and take your dog on the ultimate GamaDog adventure!
 
-    👉 [Join Community](https://t.me/CryptoXwQ)
+    👉 [Join Community](https://t.me/salekbd_bot)
     ";
 
     // Send photo to Telegram
@@ -62,8 +62,8 @@ if ($text === '/start') {
         'reply_markup' => json_encode([
             'inline_keyboard' => [
                 [
-                    ['text' => 'Play GamaDog Now', 'web_app' => ['url' => 'https://magnificent-centaur-722ef4.netlify.app']],
-                    ['text' => 'Join Our Community', 'url' => 'https://t.me/CryptoXwQ']]
+                    ['text' => 'Play GamaDog Now', 'web_app' => ['url' => 'https://deexcapp.github.io/ads']],
+                    ['text' => 'Join Our Community', 'url' => 'https://t.me/salekbd_bot']]
             ]
         ])
     ];
