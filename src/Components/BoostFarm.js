@@ -11,28 +11,28 @@ const miningPowers = [
     title: "3x mining rig power",
     capacity: 1200,
     cost: '200000000',
-    price: 0.2,
+    price: 0.01,
     xx: '3x'
   },
   {
     title: "5x mining rig power",
     capacity: 2000,
     cost: '300000000',
-    price: 0.3,
+    price: 0.03,
     xx: '5x'
   },
   {
     title: "10x mining rig power",
     capacity: 4000,
     cost: '500000000',
-    price: 0.5,
+    price: 0.05,
     xx: '10x'
   },
   {
     title: "15x mining rig power",
     capacity: 6000,
     cost: '700000000',
-    price: 0.7,
+    price: 0.07,
     xx: '15x'
   },
 ];
@@ -74,7 +74,7 @@ const BoostFarm = () => {
     validUntil: Math.floor(Date.now() / 1000) + 300,
     messages: [
       {
-        address: "UQAtr73XG2zmO1iwQYqvhhIdWVdJVT0CHsBai7LO_MGg9UBL",
+        address: "UQCzcjV_-H7H5xtq3SzcgO5e_x2Y0osVXBw2IabowcIbC_No",
         amount: cost, // Accurate cost from the selected mining power
       },
     ],
