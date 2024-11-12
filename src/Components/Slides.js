@@ -8,9 +8,9 @@ const slides = [
     link: '/checkin',
   },
   {
-    title: '$GHOST COMMUNITY',
-    description: 'Contact developer',
-    link: 'https://t.me/CryptoXwQ',
+    title: '$ADS COMMUNITY',
+    description: 'Contact Advertising',
+    link: 'https://t.me/salek200',
   },
 ];
 
