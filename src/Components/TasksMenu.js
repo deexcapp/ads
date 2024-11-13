@@ -185,7 +185,7 @@ const TasksMenu = () => {
                     <span className='flex text-secondary items-center w-fit text-[15px]'>
                    
                       <span className=''>
-                        +{formatNumber(task.bonus)} $GHOST
+                        +{formatNumber(task.bonus)} $ADS
                       </span>
                     </span>
                     {claimError && (
@@ -331,10 +331,10 @@ const TasksMenu = () => {
                     <p className='font-medium'>Let's go!!</p>
                   </div>
                   <h3 className="font-medium text-[20px] text-[#ffffff] pt-2 pb-2">
-                    <span className={`text-accent`}>+{formatNumberCliam(claimedBonus)}</span> $GHOST CLAIMED
+                    <span className={`text-accent`}>+{formatNumberCliam(claimedBonus)}</span> $ADS CLAIMED
                   </h3>
                   <p className="pb-6 text-[#9a96a6] text-[15px] w-full text-center">
-                    Keep performing new tasks! something huge is coming! Perform more and earn more $GHOST now!
+                    Keep performing new tasks! something huge is coming! Perform more and earn more $ADS now!
                   </p>
                 </div>
                 <div className="w-full flex justify-center">
