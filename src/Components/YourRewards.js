@@ -46,7 +46,7 @@ const YourRewards = () => {
                 <span className='flex items-center w-fit text-[15px]'>
                    
                    <span className='font-semibold text-primary'>
-                     +{formatNumber(checkinRewards)} $GHOST
+                     +{formatNumber(checkinRewards)} $ADS
                    </span>
                  </span>
         
@@ -73,7 +73,7 @@ const YourRewards = () => {
                 <span className='flex items-center w-fit text-[15px]'>
                    
                    <span className='font-semibold text-primary'>
-                     +{formatNumber(taskPoints)} $GHOST
+                     +{formatNumber(taskPoints)} $ADS
                    </span>
                  </span>
         
@@ -99,7 +99,7 @@ const YourRewards = () => {
                 <span className='flex items-center w-fit text-[15px]'>
                    
                    <span className='font-semibold text-primary'>
-                     +{formatNumber(miningTotal)} $GHOST
+                     +{formatNumber(miningTotal)} $ADS
                    </span>
                  </span>
         
@@ -127,7 +127,7 @@ const YourRewards = () => {
                 <span className='flex items-center w-fit text-[15px]'>
                    
                    <span className='font-semibold text-primary'>
-                     +{formatNumber(premiumReward)} $GHOST
+                     +{formatNumber(premiumReward)} $ADS
                    </span>
                  </span>
         
