@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+$ADSimport React, { useEffect, useState } from 'react';
 import { updateDoc, doc } from 'firebase/firestore';
 import { db } from '../firebase/firestore';
 import { useUser } from '../context/userContext';
@@ -50,7 +50,7 @@ const ReferralRewards = () => {
               <p className="font-medium text-center">Great job!</p>
             </div>
             <h3 className="font-medium text-[20px] text-[#ffffff] pt-2 pb-2">
-              <span className="text-accent">+{formatNumber(reward.bonusAward)}</span> $GHOST CLAIMED
+              <span className="text-accent">+{formatNumber(reward.bonusAward)}</span> $ADS CLAIMED
             </h3>
             <p className="pb-6 text-[#bfbfbf] text-[15px] w-full text-center">
               Keep inviting friends to unlock new rewards! Amazing things await!
