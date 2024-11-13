@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+$ADSimport React, { useEffect, useRef, useState } from 'react'
 import Animate from '../Components/Animate';
 import UserRanking from '../Components/Ranking';
 import TopTen from '../Components/TopTen';
