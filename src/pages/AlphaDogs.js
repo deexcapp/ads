@@ -88,7 +88,7 @@ const checkers = () => {
           {formatNumber(balance)}
         </h4>
         <p className='pb-6'>
-        $GHOST
+        $ADS
         </p>
 <div className='w-full pb-4'>
 
